@@ -25,8 +25,8 @@ describe('Fix the Scope', function() {
   })
 
   describe('funkyFunction()', function() {
-    it('returns funky function', function() {
-      expect(typeof window.funkyFunction()).toEqual('function')
+    it('returns a function', function() {
+      expect(window.funkyFunction()).toEqual('function')
     })
   })
 
